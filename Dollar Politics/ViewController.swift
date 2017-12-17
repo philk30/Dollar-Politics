@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let jsonUrlString = "https://www.opensecrets.org/api/?method=CandIndByInd&cid=N00007360&cycle=2018&ind=K02&output=json&apikey=249ece4240d376bd9884613f18ed0430"
+        let jsonUrlString = "https://www.opensecrets.org/api/?method=CandIndByInd&cid=N00007360&cycle=2018&ind=K02&output=json&apikey=[]"
         
         guard let url = URL(string:jsonUrlString)else
         {return}
