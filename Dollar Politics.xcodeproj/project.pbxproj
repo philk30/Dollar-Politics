@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2970E7EB1FDCA64A008DE86D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2970E7EA1FDCA64A008DE86D /* AppDelegate.swift */; };
+		2970E7ED1FDCA64A008DE86D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2970E7EC1FDCA64A008DE86D /* ViewController.swift */; };
+		2970E7F01FDCA64A008DE86D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2970E7EE1FDCA64A008DE86D /* Main.storyboard */; };
+		2970E7F21FDCA64A008DE86D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2970E7F11FDCA64A008DE86D /* Assets.xcassets */; };
+		2970E7F51FDCA64A008DE86D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2970E7F31FDCA64A008DE86D /* LaunchScreen.storyboard */; };
+		2970E8001FDCA64A008DE86D /* Dollar_PoliticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2970E7FF1FDCA64A008DE86D /* Dollar_PoliticsTests.swift */; };
+		2970E80B1FDCA64A008DE86D /* Dollar_PoliticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2970E80A1FDCA64A008DE86D /* Dollar_PoliticsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2970E7FC1FDCA64A008DE86D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2970E7DF1FDCA64A008DE86D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2970E7E61FDCA64A008DE86D;
+			remoteInfo = "Dollar Politics";
+		};
+		2970E8071FDCA64A008DE86D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2970E7DF1FDCA64A008DE86D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2970E7E61FDCA64A008DE86D;
+			remoteInfo = "Dollar Politics";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2970E7E71FDCA64A008DE86D /* Dollar Politics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dollar Politics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2970E7EA1FDCA64A008DE86D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2970E7EC1FDCA64A008DE86D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2970E7EF1FDCA64A008DE86D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2970E7F11FDCA64A008DE86D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2970E7F41FDCA64A008DE86D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2970E7F61FDCA64A008DE86D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2970E7FB1FDCA64A008DE86D /* Dollar PoliticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dollar PoliticsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2970E7FF1FDCA64A008DE86D /* Dollar_PoliticsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dollar_PoliticsTests.swift; sourceTree = "<group>"; };
+		2970E8011FDCA64A008DE86D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2970E8061FDCA64A008DE86D /* Dollar PoliticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dollar PoliticsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2970E80A1FDCA64A008DE86D /* Dollar_PoliticsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dollar_PoliticsUITests.swift; sourceTree = "<group>"; };
+		2970E80C1FDCA64A008DE86D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2970E7E41FDCA64A008DE86D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2970E7F81FDCA64A008DE86D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2970E8031FDCA64A008DE86D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2970E7DE1FDCA64A008DE86D = {
+			isa = PBXGroup;
+			children = (
+				2970E7E91FDCA64A008DE86D /* Dollar Politics */,
+				2970E7FE1FDCA64A008DE86D /* Dollar PoliticsTests */,
+				2970E8091FDCA64A008DE86D /* Dollar PoliticsUITests */,
+				2970E7E81FDCA64A008DE86D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2970E7E81FDCA64A008DE86D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2970E7E71FDCA64A008DE86D /* Dollar Politics.app */,
+				2970E7FB1FDCA64A008DE86D /* Dollar PoliticsTests.xctest */,
+				2970E8061FDCA64A008DE86D /* Dollar PoliticsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2970E7E91FDCA64A008DE86D /* Dollar Politics */ = {
+			isa = PBXGroup;
+			children = (
+				2970E7EA1FDCA64A008DE86D /* AppDelegate.swift */,
+				2970E7EC1FDCA64A008DE86D /* ViewController.swift */,
+				2970E7EE1FDCA64A008DE86D /* Main.storyboard */,
+				2970E7F11FDCA64A008DE86D /* Assets.xcassets */,
+				2970E7F31FDCA64A008DE86D /* LaunchScreen.storyboard */,
+				2970E7F61FDCA64A008DE86D /* Info.plist */,
+			);
+			path = "Dollar Politics";
+			sourceTree = "<group>";
+		};
+		2970E7FE1FDCA64A008DE86D /* Dollar PoliticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				2970E7FF1FDCA64A008DE86D /* Dollar_PoliticsTests.swift */,
+				2970E8011FDCA64A008DE86D /* Info.plist */,
+			);
+			path = "Dollar PoliticsTests";
+			sourceTree = "<group>";
+		};
+		2970E8091FDCA64A008DE86D /* Dollar PoliticsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2970E80A1FDCA64A008DE86D /* Dollar_PoliticsUITests.swift */,
+				2970E80C1FDCA64A008DE86D /* Info.plist */,
+			);
+			path = "Dollar PoliticsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2970E7E61FDCA64A008DE86D /* Dollar Politics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2970E80F1FDCA64A008DE86D /* Build configuration list for PBXNativeTarget "Dollar Politics" */;
+			buildPhases = (
+				2970E7E31FDCA64A008DE86D /* Sources */,
+				2970E7E41FDCA64A008DE86D /* Frameworks */,
+				2970E7E51FDCA64A008DE86D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dollar Politics";
+			productName = "Dollar Politics";
+			productReference = 2970E7E71FDCA64A008DE86D /* Dollar Politics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2970E7FA1FDCA64A008DE86D /* Dollar PoliticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2970E8121FDCA64A008DE86D /* Build configuration list for PBXNativeTarget "Dollar PoliticsTests" */;
+			buildPhases = (
+				2970E7F71FDCA64A008DE86D /* Sources */,
+				2970E7F81FDCA64A008DE86D /* Frameworks */,
+				2970E7F91FDCA64A008DE86D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2970E7FD1FDCA64A008DE86D /* PBXTargetDependency */,
+			);
+			name = "Dollar PoliticsTests";
+			productName = "Dollar PoliticsTests";
+			productReference = 2970E7FB1FDCA64A008DE86D /* Dollar PoliticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2970E8051FDCA64A008DE86D /* Dollar PoliticsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2970E8151FDCA64A008DE86D /* Build configuration list for PBXNativeTarget "Dollar PoliticsUITests" */;
+			buildPhases = (
+				2970E8021FDCA64A008DE86D /* Sources */,
+				2970E8031FDCA64A008DE86D /* Frameworks */,
+				2970E8041FDCA64A008DE86D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2970E8081FDCA64A008DE86D /* PBXTargetDependency */,
+			);
+			name = "Dollar PoliticsUITests";
+			productName = "Dollar PoliticsUITests";
+			productReference = 2970E8061FDCA64A008DE86D /* Dollar PoliticsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2970E7DF1FDCA64A008DE86D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Rusa;
+				TargetAttributes = {
+					2970E7E61FDCA64A008DE86D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					2970E7FA1FDCA64A008DE86D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2970E7E61FDCA64A008DE86D;
+					};
+					2970E8051FDCA64A008DE86D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2970E7E61FDCA64A008DE86D;
+					};
+				};
+			};
+			buildConfigurationList = 2970E7E21FDCA64A008DE86D /* Build configuration list for PBXProject "Dollar Politics" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2970E7DE1FDCA64A008DE86D;
+			productRefGroup = 2970E7E81FDCA64A008DE86D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2970E7E61FDCA64A008DE86D /* Dollar Politics */,
+				2970E7FA1FDCA64A008DE86D /* Dollar PoliticsTests */,
+				2970E8051FDCA64A008DE86D /* Dollar PoliticsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2970E7E51FDCA64A008DE86D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2970E7F51FDCA64A008DE86D /* LaunchScreen.storyboard in Resources */,
+				2970E7F21FDCA64A008DE86D /* Assets.xcassets in Resources */,
+				2970E7F01FDCA64A008DE86D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2970E7F91FDCA64A008DE86D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2970E8041FDCA64A008DE86D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2970E7E31FDCA64A008DE86D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2970E7ED1FDCA64A008DE86D /* ViewController.swift in Sources */,
+				2970E7EB1FDCA64A008DE86D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2970E7F71FDCA64A008DE86D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2970E8001FDCA64A008DE86D /* Dollar_PoliticsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2970E8021FDCA64A008DE86D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2970E80B1FDCA64A008DE86D /* Dollar_PoliticsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2970E7FD1FDCA64A008DE86D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2970E7E61FDCA64A008DE86D /* Dollar Politics */;
+			targetProxy = 2970E7FC1FDCA64A008DE86D /* PBXContainerItemProxy */;
+		};
+		2970E8081FDCA64A008DE86D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2970E7E61FDCA64A008DE86D /* Dollar Politics */;
+			targetProxy = 2970E8071FDCA64A008DE86D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2970E7EE1FDCA64A008DE86D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2970E7EF1FDCA64A008DE86D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2970E7F31FDCA64A008DE86D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2970E7F41FDCA64A008DE86D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2970E80D1FDCA64A008DE86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2970E80E1FDCA64A008DE86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2970E8101FDCA64A008DE86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YD6XSZKJVV;
+				INFOPLIST_FILE = "Dollar Politics/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rusa.Dollar-Politics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2970E8111FDCA64A008DE86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YD6XSZKJVV;
+				INFOPLIST_FILE = "Dollar Politics/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rusa.Dollar-Politics";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2970E8131FDCA64A008DE86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YD6XSZKJVV;
+				INFOPLIST_FILE = "Dollar PoliticsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rusa.Dollar-PoliticsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dollar Politics.app/Dollar Politics";
+			};
+			name = Debug;
+		};
+		2970E8141FDCA64A008DE86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YD6XSZKJVV;
+				INFOPLIST_FILE = "Dollar PoliticsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rusa.Dollar-PoliticsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dollar Politics.app/Dollar Politics";
+			};
+			name = Release;
+		};
+		2970E8161FDCA64A008DE86D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YD6XSZKJVV;
+				INFOPLIST_FILE = "Dollar PoliticsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rusa.Dollar-PoliticsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dollar Politics";
+			};
+			name = Debug;
+		};
+		2970E8171FDCA64A008DE86D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YD6XSZKJVV;
+				INFOPLIST_FILE = "Dollar PoliticsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Rusa.Dollar-PoliticsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Dollar Politics";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2970E7E21FDCA64A008DE86D /* Build configuration list for PBXProject "Dollar Politics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2970E80D1FDCA64A008DE86D /* Debug */,
+				2970E80E1FDCA64A008DE86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2970E80F1FDCA64A008DE86D /* Build configuration list for PBXNativeTarget "Dollar Politics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2970E8101FDCA64A008DE86D /* Debug */,
+				2970E8111FDCA64A008DE86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2970E8121FDCA64A008DE86D /* Build configuration list for PBXNativeTarget "Dollar PoliticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2970E8131FDCA64A008DE86D /* Debug */,
+				2970E8141FDCA64A008DE86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2970E8151FDCA64A008DE86D /* Build configuration list for PBXNativeTarget "Dollar PoliticsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2970E8161FDCA64A008DE86D /* Debug */,
+				2970E8171FDCA64A008DE86D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2970E7DF1FDCA64A008DE86D /* Project object */;
+}
