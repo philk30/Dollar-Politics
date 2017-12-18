@@ -61,7 +61,7 @@ class ViewController: UIViewController {
 
             do {
                 let candidate = try JSONDecoder().decode(Candidate.self, from: newdata!)
-                print(candidate.response)
+                print(candidate.response.candIndus.attributes.cand_name)
             }catch let jsonErr {
                 print("Error serializing json:", jsonErr)
                 
