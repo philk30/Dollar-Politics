@@ -10,15 +10,15 @@ import UIKit
 
 
 struct Candidate: Decodable{
-    let response:[CandIndus]
+    let response:CandIndus
 }
 
 struct CandIndus: Decodable {
-    let candIndus:[Attributes]
+    let candIndus:Attributes
 }
 
 struct Attributes:Decodable{
-    let attributes:[Atris]
+    let attributes:Atris
 }
 
 struct Atris: Decodable {
@@ -61,7 +61,7 @@ class ViewController: UIViewController {
 
             do {
                 let candidate = try JSONDecoder().decode(Candidate.self, from: newdata!)
-                print(candidate)
+                print(candidate.response)
             }catch let jsonErr {
                 print("Error serializing json:", jsonErr)
                 
