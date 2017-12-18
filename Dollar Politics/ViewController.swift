@@ -29,10 +29,10 @@ struct Atris: Decodable {
     let chamber:String?
     let party:String?
     let state:String?
-    let total: Int?
-    let indivs: Int?
-    let pacs:Int?
-    let rank: Int?
+    let total: String?
+    let indivs: String?
+    let pacs:String?
+    let rank: String?
     let origin:String?
     let source: String?
 }
@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let jsonUrlString = "https://www.opensecrets.org/api/?method=CandIndByInd&cid=N00007360&cycle=2018&ind=K02&output=json&apikey=[]"
+        let jsonUrlString = "https://www.opensecrets.org/api/?method=CandIndByInd&cid=N00007360&cycle=2018&ind=K02&output=json&apikey="
         
         guard let url = URL(string:jsonUrlString)else
         {return}
@@ -55,9 +55,9 @@ class ViewController: UIViewController {
             
             guard let data = data else {return}
             
-            let stringdata = String(data:data, encoding: .utf8)
-            let newStringdata = stringdata?.replacingOccurrences(of: "@", with: "")
-            let newdata = newStringdata?.data(using: String.Encoding.utf8)
+            let stringdata = String(data:data, encoding: .utf8) //turning data into string for processing
+            let newStringdata = stringdata?.replacingOccurrences(of: "@", with: "") //removed the instances of "@" in the json
+            let newdata = newStringdata?.data(using: String.Encoding.utf8) //turning processed stirng back into data
 
             do {
                 let candidate = try JSONDecoder().decode(Candidate.self, from: newdata!)
