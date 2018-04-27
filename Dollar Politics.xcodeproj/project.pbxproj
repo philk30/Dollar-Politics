@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		293B17E3204F783A00B989DC /* MoneyChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293B17E2204F783A00B989DC /* MoneyChartViewController.swift */; };
+		2950C3DA1FF27E4500A9EE22 /* PoliticianTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2950C3D91FF27E4500A9EE22 /* PoliticianTableView.swift */; };
 		2970E7EB1FDCA64A008DE86D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2970E7EA1FDCA64A008DE86D /* AppDelegate.swift */; };
 		2970E7ED1FDCA64A008DE86D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2970E7EC1FDCA64A008DE86D /* ViewController.swift */; };
 		2970E7F01FDCA64A008DE86D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2970E7EE1FDCA64A008DE86D /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		2970E7F51FDCA64A008DE86D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2970E7F31FDCA64A008DE86D /* LaunchScreen.storyboard */; };
 		2970E8001FDCA64A008DE86D /* Dollar_PoliticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2970E7FF1FDCA64A008DE86D /* Dollar_PoliticsTests.swift */; };
 		2970E80B1FDCA64A008DE86D /* Dollar_PoliticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2970E80A1FDCA64A008DE86D /* Dollar_PoliticsUITests.swift */; };
+		29E76B071FF056B200353461 /* AllStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E76B061FF056B200353461 /* AllStructs.swift */; };
+		29FBE3E4205E00D900DCA657 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29FBE3D9205D77C800DCA657 /* Charts.framework */; };
+		29FBE3E5205E00D900DCA657 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29FBE3D9205D77C800DCA657 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +36,46 @@
 			remoteGlobalIDString = 2970E7E61FDCA64A008DE86D;
 			remoteInfo = "Dollar Politics";
 		};
+		29FBE3D8205D77C800DCA657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29FBE3D3205D77C800DCA657 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		29FBE3DA205D77C800DCA657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29FBE3D3205D77C800DCA657 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+		29FBE3E6205E00D900DCA657 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29FBE3D3205D77C800DCA657 /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A58A4ED274A941CA248EA921;
+			remoteInfo = Charts;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		29FBE3E8205E00D900DCA657 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				29FBE3E5205E00D900DCA657 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		293B17E2204F783A00B989DC /* MoneyChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyChartViewController.swift; sourceTree = "<group>"; };
+		2950C3D91FF27E4500A9EE22 /* PoliticianTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticianTableView.swift; sourceTree = "<group>"; };
 		2970E7E71FDCA64A008DE86D /* Dollar Politics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dollar Politics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2970E7EA1FDCA64A008DE86D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2970E7EC1FDCA64A008DE86D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +89,8 @@
 		2970E8061FDCA64A008DE86D /* Dollar PoliticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dollar PoliticsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2970E80A1FDCA64A008DE86D /* Dollar_PoliticsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dollar_PoliticsUITests.swift; sourceTree = "<group>"; };
 		2970E80C1FDCA64A008DE86D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29E76B061FF056B200353461 /* AllStructs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllStructs.swift; sourceTree = "<group>"; };
+		29FBE3D3205D77C800DCA657 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../../../../../../Downloads/Charts-master 2/Charts.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29FBE3E4205E00D900DCA657 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,12 +142,16 @@
 		2970E7E91FDCA64A008DE86D /* Dollar Politics */ = {
 			isa = PBXGroup;
 			children = (
+				2950C3D91FF27E4500A9EE22 /* PoliticianTableView.swift */,
 				2970E7EA1FDCA64A008DE86D /* AppDelegate.swift */,
 				2970E7EC1FDCA64A008DE86D /* ViewController.swift */,
+				29E76B061FF056B200353461 /* AllStructs.swift */,
 				2970E7EE1FDCA64A008DE86D /* Main.storyboard */,
+				293B17E2204F783A00B989DC /* MoneyChartViewController.swift */,
 				2970E7F11FDCA64A008DE86D /* Assets.xcassets */,
 				2970E7F31FDCA64A008DE86D /* LaunchScreen.storyboard */,
 				2970E7F61FDCA64A008DE86D /* Info.plist */,
+				29FBE3D3205D77C800DCA657 /* Charts.xcodeproj */,
 			);
 			path = "Dollar Politics";
 			sourceTree = "<group>";
@@ -125,6 +174,15 @@
 			path = "Dollar PoliticsUITests";
 			sourceTree = "<group>";
 		};
+		29FBE3D4205D77C800DCA657 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29FBE3D9205D77C800DCA657 /* Charts.framework */,
+				29FBE3DB205D77C800DCA657 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +193,12 @@
 				2970E7E31FDCA64A008DE86D /* Sources */,
 				2970E7E41FDCA64A008DE86D /* Frameworks */,
 				2970E7E51FDCA64A008DE86D /* Resources */,
+				29FBE3E8205E00D900DCA657 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				29FBE3E7205E00D900DCA657 /* PBXTargetDependency */,
 			);
 			name = "Dollar Politics";
 			productName = "Dollar Politics";
@@ -218,6 +278,12 @@
 			mainGroup = 2970E7DE1FDCA64A008DE86D;
 			productRefGroup = 2970E7E81FDCA64A008DE86D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 29FBE3D4205D77C800DCA657 /* Products */;
+					ProjectRef = 29FBE3D3205D77C800DCA657 /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				2970E7E61FDCA64A008DE86D /* Dollar Politics */,
@@ -226,6 +292,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		29FBE3D9205D77C800DCA657 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 29FBE3D8205D77C800DCA657 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		29FBE3DB205D77C800DCA657 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 29FBE3DA205D77C800DCA657 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2970E7E51FDCA64A008DE86D /* Resources */ = {
@@ -260,7 +343,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2970E7ED1FDCA64A008DE86D /* ViewController.swift in Sources */,
+				293B17E3204F783A00B989DC /* MoneyChartViewController.swift in Sources */,
+				29E76B071FF056B200353461 /* AllStructs.swift in Sources */,
 				2970E7EB1FDCA64A008DE86D /* AppDelegate.swift in Sources */,
+				2950C3DA1FF27E4500A9EE22 /* PoliticianTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +378,11 @@
 			isa = PBXTargetDependency;
 			target = 2970E7E61FDCA64A008DE86D /* Dollar Politics */;
 			targetProxy = 2970E8071FDCA64A008DE86D /* PBXContainerItemProxy */;
+		};
+		29FBE3E7205E00D900DCA657 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = 29FBE3E6205E00D900DCA657 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -425,6 +516,7 @@
 		2970E8101FDCA64A008DE86D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YD6XSZKJVV;
@@ -440,6 +532,7 @@
 		2970E8111FDCA64A008DE86D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YD6XSZKJVV;
